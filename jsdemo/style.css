@@ -1,10 +1,45 @@
-div.user {
-    border:1px solid black;
-    padding:10px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 30px;
 }
-div.user div {
-    cursor: pointer;
+
+.user {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
-div.user.selected {
-    background-color: greenyellow;
+
+.user:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user div {
+  margin: 5px 0;
+}
+
+.user .name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.user .age {
+  color: #7f8c8d;
+}
+
+.user .title {
+  color: #34495e;
+}
+
+.user.selected {
+  background-color: #dbeafe;
+  border-color: #2563eb;
 }
