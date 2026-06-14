@@ -62,3 +62,14 @@ header h1 {
 .news-content p {
   line-height: 1.6;
 }
+
+.news-content h2 a {
+  text-decoration: none;
+  color: #34495e;
+  transition: color 0.2s ease;
+}
+
+.news-content h2 a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
